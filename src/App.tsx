@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-
 import GlobalStyles from "styles/GlobalStyles"
-import Layout from "components/Layout/Layout"
+
 import { routesData } from "routes/routes"
 import type { RoutePage } from "routes/types"
+import Layout  from "components/Layout/Layout"
+
 
 function App() {
   const routes = routesData.map(({ path, element }: RoutePage) => {
@@ -19,4 +20,4 @@ function App() {
     </BrowserRouter>
   )
 }
-export default App
+export default App;

@@ -8,7 +8,7 @@ export const CounterWrapper = styled.div`
   min-width: 400px;
   padding: 20px;
   background-color: white;
-  border: 2px solid rgb(4, 0, 255);
+  border: 2px solid rgba(160, 212, 162, 1);
   border-radius: 20px;
 `;
 

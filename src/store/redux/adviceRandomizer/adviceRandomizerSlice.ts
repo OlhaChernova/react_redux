@@ -1,7 +1,6 @@
 import { createAppSlice } from "store/createAppSlice"
 import { AdviceApiResponse, AdviceRandomizerSliceState } from "./types"
 import axios from "axios"
-import { a } from "vitest/dist/chunks/suite.d.FvehnV49.js"
 
 const adviceRandomizerInitialState: AdviceRandomizerSliceState = {
   data: [],

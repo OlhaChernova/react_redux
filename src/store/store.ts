@@ -4,9 +4,10 @@ import { setupListeners } from "@reduxjs/toolkit/query"
 import { counterSlice } from "./redux/counter/counterSlice"
 import { randomJokesSlice } from "./redux/randomJokes/randomJokesSlice"
 import { feedbackSlice } from "./redux/feedback/feedbackSlice"
+import { adviceRandomizerSlice } from "./redux/adviceRandomizer/adviceRandomizerSlice"
 
 // 8. Передача counterSlice в combineSlices
-const rootReducer = combineSlices(counterSlice, randomJokesSlice, feedbackSlice)
+const rootReducer = combineSlices(counterSlice, randomJokesSlice, feedbackSlice, adviceRandomizerSlice)
 // Infer the `RootState` type from the root reducer
 export type RootState = ReturnType<typeof rootReducer>
 

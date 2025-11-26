@@ -9,5 +9,6 @@ export const routesData: RoutePage[] = [
   { path: "/lesson17", element: <Lesson17 /> },
   { path: "/homework17", element: <Homework17 /> },
   { path: "/lesson18", element: <RandomJokes /> },
+  { path: "/homework18", element: <AdviceRandomizer /> },
   { path: "*", element: "Page not found" },
-];
+]
